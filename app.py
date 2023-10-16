@@ -18,7 +18,6 @@ def fizzbuzz():
             outcome.append("Buzz")
         else:
             outcome.append(digit)
-        print(outcome)
 
     return render_template('FizzBuzz_template.html', outcome = outcome)
 
