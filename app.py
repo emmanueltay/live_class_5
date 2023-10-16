@@ -22,5 +22,3 @@ def fizzbuzz():
 
     return render_template('FizzBuzz_template.html', outcome = outcome)
 
-if __name__ == '__main__':
-    app.run()
