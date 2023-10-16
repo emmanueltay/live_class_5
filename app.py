@@ -19,7 +19,7 @@ def fizzbuzz():
         else:
             outcome.append(digit)
 
-    return render_template('FizzBuzz_template.html', result = outcome)
+    return render_template('FizzBuzz_template.html', outcome = outcome)
 
 if __name__ == '__main__':
     app.run()
